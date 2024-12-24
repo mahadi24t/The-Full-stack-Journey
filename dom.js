@@ -21,3 +21,26 @@ blueHeading.textContent="I’m a blue h3!";
 
 container.appendChild(blueHeading);
 
+const stylediv = document.createElement("div");
+stylediv.style.border="1px solid black";
+stylediv.style.backgroundColor="pink";
+
+const divHeading =document.createElement("h1");
+divHeading.textContent= "I am in a div";
+stylediv.appendChild(divHeading);
+
+
+const divParagraph=document.createElement("p")
+divParagraph.textContent="ME TOO";
+divParagraph.style.color="green";
+stylediv.appendChild(divParagraph);
+
+container.appendChild(stylediv);
+
+/// the JavaScript file
+const btn = document.querySelector("#btn");
+btn.onclick = () => alert("Hello World");
+
+
+
+
