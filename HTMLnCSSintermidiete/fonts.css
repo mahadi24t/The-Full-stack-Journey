@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+
+  1 {
+    font-family: 'COUTUREBold';
+    margin: 0;
+    font-size: 38px;
+  }
+  
+  .wide {
+    font-size: 24px;
+    letter-spacing: 0.5em;
+  }
+  
+  .narrow {
+    font-size: 48px;
+    letter-spacing: -0.15em;
+  }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    display: flex;
+  }
+  
+  p.line-height {
+    line-height: 1.5;
+  }
+  
