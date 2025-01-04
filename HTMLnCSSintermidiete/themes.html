@@ -4,11 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="toogle.js"></script>
+    <link rel="stylesheet" href="toogle.css">
 </head>
 <body>
     <div class="container">
         <p>You're now viewing this example with the <span class='theme-name'>dark</span> theme!</p>
         <button class="theme-toggle">Toggle Theme</button>
       </div>
+
+      <div class="container">
+        <p>Based on your theme setting in your OS or user agent, you're now viewing this example with the <span class='theme-name'></span> theme!</p>
+
+        
+      <script>
+        function setTheme() {
+    const root = document.documentElement;
+    const newTheme = root.className === 'dark' ? 'light' : 'dark';
+    root.className = newTheme;
+    
+    document.querySelector('.theme-name').textContent = newTheme;
+  }
+  
+  document.querySelector('.theme-toggle').addEventListener('click', setTheme)
+      </script>
 </body>
 </html>

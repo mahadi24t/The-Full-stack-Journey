@@ -1,0 +1,35 @@
+.cool-div {
+    --main-bg: red;
+  }
+  
+  .cool-paragraph {
+    background-color: var(--main-bg);
+  }
+  
+  .boring-paragraph {
+    background-color: var(--main-bg);
+  }
+  :root {
+    --main-color: red;
+  }
+  
+  .cool-paragraph {
+    color: var(--main-color);
+  }
+  
+  .exciting-paragraph {
+    background-color: var(--main-color);
+  }
+:root{
+    --habro-kire:blue;
+}    
+.habro{
+    color: var(--habro-kire);
+}
+.taini{
+    background-color: var(--habro-kire);
+    color: var(--dhuro);
+}
+:root{
+    --dhuro: aliceblue;
+}
