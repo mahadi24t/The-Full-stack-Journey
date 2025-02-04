@@ -1,0 +1,51 @@
+.container{
+    display: inline-grid;
+    grid-template: repeat(3, 40px) / repeat(6, 40px);
+    background-color: lightblue; 
+    grid-template-areas:
+    "bedroom1 bedroom1 bedroom1 bedroom1 bathroom1 closet1"
+    "dining dining dining drawing drawing bathroom2"
+    "kitchen bedroom2 bedroom2 bedroom3 bedroom3 bathroom3"
+    "kitchen bedroom2 bedroom2 bedroom3 bedroom3 closet2";
+
+}
+.room{
+    border: 1px solid;
+    font-size: 50%;
+    text-align: center;
+    background-color: lightgreen;
+    
+}
+#bedroom1{
+    grid-area: bedroom1;
+}
+#bedroom2{
+    grid-area: bedroom2;
+}
+#bedroom3{
+    grid-area: bedroom3;
+}
+#dining{
+    grid-area: dining;
+}
+#drawing{
+    grid-area: drawing;
+}
+#kitchen{
+    grid-area: kitchen;
+}
+#bathroom1{
+    grid-area: bathroom1;
+}
+#bathroom2{
+    grid-area: bathroom2;
+}
+#bathroom3{
+    grid-area: bathroom3;
+}
+#closet1{
+    grid-area: closet1;
+}
+#closet2{
+    grid-area: closet2;
+}
