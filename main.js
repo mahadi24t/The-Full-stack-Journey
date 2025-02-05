@@ -25,11 +25,23 @@ console.log(salary,car);
 console.log(person);
 
 //Todos
-
+/*
 const todos = [
     {id:1, title:'Buy milk', completed:false},
     {id:2, title:'Walk the dog', completed:true},
     {id:3, title:'doctor appointment', completed:true,}
-]
+];
 
 console.log(todos[0].completed,todos[1].completed);
+
+consttodoJSON = JSON.stringify(todos);
+console.log(todoJSON);
+*/
+for(let i=0;i<=10;i++){
+    console.log(i);
+}
+let i=0;
+while(i<=10){
+    console.log(`Number ${i}`);
+    i++;
+}
