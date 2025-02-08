@@ -37,6 +37,7 @@ console.log(todos[0].completed,todos[1].completed);
 consttodoJSON = JSON.stringify(todos);
 console.log(todoJSON);
 */
+/*
 for(let i=0;i<=10;i++){
     console.log(i);
 }
@@ -44,4 +45,13 @@ let i=0;
 while(i<=10){
     console.log(`Number ${i}`);
     i++;
+}
+    */
+const x=4;
+if (x==10) {
+    console.log("x is 10");
+}else if(x>10){
+    console.log("x is greater than 10");
+}else{
+    console.log(`x is less than 10 and is actually ${x}`);
 }
