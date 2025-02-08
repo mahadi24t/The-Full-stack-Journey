@@ -55,3 +55,20 @@ if (x==10) {
 }else{
     console.log(`x is less than 10 and is actually ${x}`);
 }
+
+// Ternary Operators
+
+const y = 5;
+const color = y > 10 ? 'red' : 'green';
+
+switch (color) {
+    case 'red':
+        console.log('color is red');
+        break;
+    case 'green':
+        console.log('color is green');
+        break;
+    default:
+        console.log('color is others');
+        break;
+}
