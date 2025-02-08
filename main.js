@@ -81,3 +81,22 @@ function addNums(a,b) {
 }
 console.log(addNums(5,2));
 
+// Arrow Function
+const subNumsArrow = (a,b) => {
+    return a-b;
+}
+
+console.log(subNumsArrow(5,2));
+
+const multNumsArrow = (a,b) => {
+    return a*b;
+}
+
+console.log(multNumsArrow(5,2));
+
+// Function Arrow without bracket
+
+const divNumwArrow = (a,b) => a/b;
+
+console.log(divNumwArrow(9,3));
+
